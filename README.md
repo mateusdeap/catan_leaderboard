@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a very simple application and has no aspirations to be much more
+than what the title says.
 
-Things you may want to cover:
+I like to play Catan. So does my family. So do my friends. So I thought
+we should keep track of who's best :)
 
-* Ruby version
+## Install
 
-* System dependencies
+Simple basic Rails installation process:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone this repo
+2. Run `bundle install`
+3. Run `bin/setup`
