@@ -13,3 +13,15 @@ Simple basic Rails installation process:
 1. Clone this repo
 2. Run `bundle install`
 3. Run `bin/setup`
+
+## Run
+
+To start the app simply run:
+```
+bin/dev`
+```
+
+This application uses Tailwind and the tailwindcss-rails gem. In order to have the
+watch feature, I decided to use the `bin/dev` script.
+
+Since I use WSL, the tailwind build task is configured with the `poll` option.

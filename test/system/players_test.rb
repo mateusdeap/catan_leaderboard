@@ -11,6 +11,11 @@ class PlayersTest < ApplicationSystemTestCase
     assert_selector "td", text: player_one.name 
     assert_selector "td", text: player_one.score 
     assert_selector "td", text: player_two.name 
-    assert_selector "td", text: player_two.score 
+    assert_selector "td", text: player_two.score
+
+    table_data = page.all("tbody tr td")
+
+    assert_match(player_one.name, table_data[0].text)
+    assert_match(player_two.name, table_data[2].text)
   end
 end
